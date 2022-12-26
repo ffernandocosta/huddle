@@ -42,6 +42,11 @@ body {
 
 /* MAIN */
 
+.main {
+    background-image: url(/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
 .header {
     padding: 3rem 2rem;
 }
@@ -104,6 +109,15 @@ body {
 
 @media screen and (min-width: 1440px) {
     
+    .main-mobile {
+        background-image: none;
+    }
+
+    .main {
+        background-image: url(/images/bg-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
     .header img {
         width: 15%;
     }
